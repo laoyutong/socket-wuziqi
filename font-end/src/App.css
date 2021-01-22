@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px 100px;
+  box-sizing: border-box;
+  align-content: space-around;
+  width: 100vw;
+  height: 100vh;
+}
+.player-one {
+  align-self: flex-start;
+}
+.player-two {
+  align-self: flex-end;
+}
+.play-area {
+  width: 600px;
+  height: 600px;
+  align-self: center;
+}
